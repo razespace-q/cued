@@ -85,6 +85,12 @@ p {
     color: #000000;
     font-size: 22px;
 }
+
+.numbers{
+    color: #107854;
+     font-size: 27px; 
+     font-weight: bolder
+}
 .item-text p {
     margin-bottom: 5px; /* You can adjust the margin as needed */
 }
@@ -242,5 +248,93 @@ p {
         color: #000000;
         font-size: 15px;
         font-weight: bold;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 680px) {
+    .logo {
+        font-size: 20px;
+        margin-left: 20px; /* Adjust the margin for the logo */
+    }
+
+    nav {
+        margin-right: 8px; /* Adjust the margin for the nav */
+    }
+
+    nav li {
+        margin-right: 16px;
+        display: none;
+    }
+
+    #search-icon {
+        display: none; /* Hide the search icon on small screens */
+    }
+
+    .content h1 {
+        font-size: 25px; /* Adjust the font size for h1 */
+    }
+
+    .content p {
+        font-size: 10px; /* Adjust the font size for p */
+    }
+
+    .container {
+        width: 100%; /* Make the container full width */
+    }
+
+    .container-item {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .item-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .item-text {
+        text-align: center; /* Center text in small screens */
+        margin: 6px;
+    }
+
+    .button-row {
+        flex-direction: column;
+        align-items: center;
+        margin: 8px 0; /* Adjust margin for button row */
+    }
+
+    .button-row button {
+        margin: 5px 0; /* Adjust margin for buttons */
+    }
+    .container2{
+        width: 90%;
+    }
+    .container-item2 {
+        flex: 1;
+        height: 140px;
+        background-color: #FFFFFF;
+        margin: 3px;
+        display: flex;
+        
+        border-radius: 5px;
+        justify-content: space-between;
+        
+    }
+    .font{
+        color: #000000;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .numbers{
+        color: #107854;
+         font-size: 10px; 
+         
+    }
+    .sub-container {
+        border: 1px ; /* Add a border for visual separation */
+        padding: 5px; /* Add some padding to the sub-containers */
+        margin: 2px; /* Add margin to separate them */
+        text-align: center; /* Center the content inside sub-containers */
+        width: 12%; /* Adjust the width to your preference */
     }
 }
