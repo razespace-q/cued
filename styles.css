@@ -1,0 +1,213 @@
+body {
+    background-image: url('https://img.freepik.com/free-photo/business-concept-with-graphic-holography_23-2149160929.jpg?size=626&ext=jpg&ga=GA1.1.855370055.1697480341&semt=ais'); /* Replace 'your-image-url.jpg' with the actual URL of your background image */
+            background-size: cover; /* Adjust to your preference */
+            background-repeat: no-repeat; /* Adjust to your preference */
+            color: white;
+}
+.content h1 {
+    font-size: 86px; /* Adjust the font size as needed */
+}
+.content p{
+    font-size: 25px;
+}
+header {
+    background-color: #0D2329;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 100px;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+#search-icon {
+    font-size: 24px;
+}
+
+.content {
+    text-align: center;
+    padding: 110px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.container {
+    
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 10px;
+}
+.sub-container {
+    border: 2px ; /* Add a border for visual separation */
+    padding: 10px; /* Add some padding to the sub-containers */
+    margin: 5px; /* Add margin to separate them */
+    text-align: center; /* Center the content inside sub-containers */
+    width: 18%; /* Adjust the width to your preference */
+}
+.container2 {
+    
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 72%;
+    margin-top: 20px;
+}
+.button-row {
+   
+    justify-content: flex-start;
+    margin-right: 80px;
+    
+}
+.item-text p {
+    margin-bottom: 5px; /* You can adjust the margin as needed */
+}
+.button-row button {
+    background-color: #1e6e82; /* Change the color to your desired background color */
+    color: #fff; /* Text color for the buttons */
+    padding: 5px 15px; /* Adjust padding as needed */
+    border: none;
+    cursor: pointer;
+}
+
+.container-item {
+    flex: 1;
+    height: 260px;
+    background-color: #243D43;
+    margin: 10px;
+  display: flex;
+    align-items: center;
+}
+.container-item2 {
+    flex: 1;
+    height: 140px;
+    background-color: #FFFFFF;
+    margin: 10px;
+  display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+.container-item3 {
+    
+    height: 100px;
+    background-color: #FFFFFF;
+    margin: 10px;
+   
+    align-items: center;
+}
+.item-image {
+    
+    padding: 10px;
+}
+
+.item-image img {
+    width: 100%;
+    height: auto;
+}
+
+.item-text {
+    flex: 1;
+   
+    color: white;
+}
+.textRegistration {
+    font-size: 20px; /* Adjust font size as needed */
+    color: #333333; 
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+.progress-bar {
+    width: 86%;
+    background-color: #ccc;
+    margin-right: 60px;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+
+.progress-bar .fill {
+    width: 80%;
+    height: 5px; /* Adjust the height as needed */
+    background-color: #107854;
+    
+}
+.progress-bar .fill2 {
+    width: 70%;
+    height: 5px; /* Adjust the height as needed */
+    background-color: #107854;
+    
+}
+
+/* Adjust the gap between image and text */
+.item-image, .item-text {
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        font-size: 20px;
+    }
+
+    nav li {
+        margin-right: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .container-item {
+        max-width: 95%;
+    }
+    .item-image img {
+        width: 80%;
+        height: 80%;
+    }
+    .item-text {
+        display: flex;
+        color: white;
+    }
+    @media (max-width: 768px) {
+        .container {
+          width: 100%;
+        }
+      
+        .button-row {
+          flex-direction: column;
+          align-items: center;
+          margin-right: 0;
+        }
+      
+        .button-row button {
+          margin-bottom: 10px;
+        }
+      }
+    
+}
